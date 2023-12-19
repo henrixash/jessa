@@ -270,3 +270,15 @@ td a:hover{
   text-shadow: 1px 1px 4px #EEEBDD;
   font-weight: bold;
 }
+.crd{
+  color:#810000;
+  font-weight: bold;
+}
+
+.crd:hover{
+  color:#1B1717;
+  text-shadow: 2px 2px 3px #810000;
+}
+.btp:hover{
+  box-shadow: 5px 5px 10px #EEEBDD;
+}
