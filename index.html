@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>College of Engeneering</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="styles.css"/>
+
+ 
+ <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin="" />
+ <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js" integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew==" crossorigin=""></script>
+</head>
+<body>
+<header>
+   <h1>Welcome to the Website <br> of the <br>  College of Engeneering</h1>
+</header>
+ 
+<section>
+  <a name="top">
+  <nav>
+    <h3>Menu</h3>
+    <ul class="navhover">
+        <li><a href="#top" >Home</a></li>
+        <li><a href="pages/history.html">History</a></li>
+        <li><a href="pages/vmgo.html">VMGO</a></li>
+        <li><a href="pages/course.html">Course</a></li>
+        <li><a href="pages/news.html">News & Achievements</a></li>
+
+    <br>
+    <ul class="navhover">
+      <li><a href="pages/regs.html">Register</a></li>
+      <li><a href="pages/login.html">Login</a></li>
+    </ul>
+  </nav>
+ 
+  <article>
+        <img class="news-img" src="pictures/image1.jpg"/><br>
+         <h4>NVSU SECURES 8.4M FUNDING FROM CHED-IDIG</h4>
+         <div class="d2">
+         <p class="text-justify">Nueva Vizcaya State University secured 8.4 million funds from Commission on Higher Education (CHED) for the implementation of the University project entitled “Extending NVSU e-service thru Wireless Connectivity: A COVID 19 mitigation and response.</p>
+         <p class="text-justify">The proposal for the Institutional Development and Innovation Grants (IDIG) for the said NVSU project was approved by the CHED Commission en banc on Dec. 9, 2021 through CEB Resolution no. R006-2021 which was also subject in the availability of the funds in the Higher Education Development Fund (HEDF) that provides assistance to the Higher Education Institutions. </p>
+        </div>
+  </article>
+
+  <article>
+      <img class="news-img" src="pictures/image2.jpg"/><br>
+         <h4>NVSU gets 7.2-M grant from CHED for the upgrading of campuses backbone to fiber optic</h4>
+          <div class="d2">
+          <p class="text-justify">Nueva Vizcaya State University secured 8.4 million funds from Commission on Higher Education (CHED) for the implementation of the University project entitled “Extending NVSU e-service thru Wireless Connectivity: A COVID 19 mitigation and response.</p>
+          <p class="text-justify">The proposal for the Institutional Development and Innovation Grants (IDIG) for the said NVSU project was approved by the CHED Commission en banc on Dec. 9, 2021 through CEB Resolution no. R006-2021 which was also subject in the availability of the funds in the Higher Education Development Fund (HEDF) that provides assistance to the Higher Education Institutions. </p>
+    </div>
+  </article>
+
+ <article>
+  <h2>Map Locator</h2>
+    <div id="map">
+    </div>
+    <a class="btp" href="#top">Back to Top</a>
+</article>
+</section>
+ 
+ 
+<footer>
+  <table>
+    <tr>
+      <td>
+          <img src="pictures/coe1.png" height="180px" width="180px">
+      </td>
+      <td>
+          <ul>
+              <li><p><b>Nueva Vizcaya State University</b></p></li>
+              <li><img src="icons/location.png" height="15px" width="15px"> Bayombong, Nueva Vizcaya, Philippines 3700 <br></li>
+              <li> <img src="icons/phone-call (1).png" height="15px" width="15px"> <a href="tel:(078) 392-1111 ">(078) 392-1111 </a><br></li>
+              <li><img src="icons/email.png" height="15px" width="15px"> <a href="mailto:info@nvsu.edu.ph">info@nvsu.edu.ph</a><br></li>
+              <li> <img src="icons/facebook (1).png" height="15px" width="15px"> <a href="https://www.facebook.com/nvsu1916">NVSU Official Facebook Page</a><br></li>
+              <li><img src="icons/web.png" height="15px" width="15px"> <a href="https://nvsu.edu.ph/">NVSU Official Website</a></li>
+          </ul>
+      </td>
+      <td rowspan="2">
+        <p>
+          <div>
+          <b>Facebook Page Links</b><br>
+          <a class="link" href="https://web.facebook.com/nvsucoebay/?_rdc=1&_rdr" target="_blank">College of Engineering</a><br>
+          <a class="link" href="https://web.facebook.com/collegeofengineeringbayombongcampus?_rdc=1&_rdr" target="_blank">College of Engineering Student Council</a><br>
+          <a class="link" href="https://web.facebook.com/nvsuacesjpice?_rdc=1&_rdr" target="_blank">ACES - JPICE NVSUsc</a><br>
+          <a class="link" href="https://web.facebook.com/nvsuassociationofgeodeticengineeringstudents?mibextid=ZbWKwL&_rdc=1&_rdr" target="_blank">Association of Geodetic Engineering Students</a><br>
+          <a class="link" href="https://web.facebook.com/NVSUsfabe" target="_blank">Society of Future Agricultural and Biosystems Engineers</a>
+        </div>
+        </p>
+      </td>
+      <td rowspan="2" style="padding-left: 50px;">
+        <p>
+          <b>Web Developer</b><br>
+          Jessa Mae Ramos 
+        </p>
+      </td>
+    </tr>
+  </table>
+</footer>
+<script src="js/map.js"></script>
+</body>
+</html>
